@@ -1,0 +1,104 @@
+    /* Global Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Bevan&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+  
+  
+  html {
+    font-size: 62.5%;
+    --font-body: 'DM Sans', sans-serif;
+    --font-header: 'Bevan', cursive;
+    --header1: calc(5.5rem + 1vw);
+    --header2: calc(24px);
+    --header3: calc(20px);
+    --header4: calc(2rem + 1vw);
+    --text: calc(16px);
+    --big: calc(6rem + 1vw);
+    --red-text: #c7013f;
+    --background-color: #414141;
+    --gray-text: #525252;
+    --yellow-text: #e5c962;
+    --blue-text: #3280d0;
+    scroll-behavior: smooth;
+  }
+  
+  h1 {
+    font-family: var(--font-header);
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: var(--header1);
+  }
+  h2 {
+    font-family: var(--font-header);
+    font-size: var(--header2);
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: 0.25px;
+    line-height: 1.25;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+  h3 {
+    font-size: var(--header3);
+  }
+  h4 {
+    font-size: var(--header4);
+  }
+  
+  li,
+  button,
+  label,
+  input,
+  a,
+  p {
+    font-size: var(--text);
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  body {
+    font-family: var(--font-body);
+    color: rgb(255, 255, 255);
+    background-color: #1a1a1a;
+  }
+  
+  #content, #element{
+      height: 100vh;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+  }
+
+  #element {
+      margin-top: -10vh;
+      padding-top: 10vh;
+      padding-left: 4%;
+      padding-right: 4%;
+  }
+
+  #hero {
+      padding-top: 10vh;
+      padding-right: 40%;
+  }
